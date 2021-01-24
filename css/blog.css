@@ -1,0 +1,151 @@
+@import url("defaulttext.css");
+
+body {
+  background-image: url("tiles/jpg/psychedglass.jpg");
+  background-attachment: fixed;
+  margin: auto;
+  width: 80%;
+}
+
+a:visited, a:link{
+  color: lightgrey;
+}
+
+a:hover{
+  color: red;
+}
+
+.dacenta {
+  display: flex;
+  justify-content: center;
+}
+
+#logo h1 {
+  /* Font shit */
+  font-family: Arial;
+  font-size: 70px;
+  font-style: italic;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  color: #FF288C;
+
+  /* positioning shit */
+  margin: 10px;
+}
+
+#nav {
+  /* appearance shit */
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
+
+  /* positioning shit */
+  text-align: center;
+  display: block;
+
+  /* border shit */
+  border-style: solid;
+  border-width: 2px;
+  border-color: 570605;
+}
+
+#nav li{
+  display: inline;
+  margin: 25px;
+  font-family: bahnschrift;
+  font-size: 25px;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+
+#nav a:visited, #nav a:link{
+  color: lightgrey;
+}
+
+#nav a:hover{
+  color: red;
+}
+
+#greetingbox {
+  /* Border shit */
+  border-style: solid;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-color: black;
+}
+
+#greetingbox h1 {
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  background-image: url("tiles/jpg/marble.jpg");
+  background-attachment: fixed;
+  background-size: 500px 500px;
+}
+
+#main {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
+  border-width: 2px;
+  border-color: black;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.greekgods {
+
+}
+
+#leftsidewrapper {
+  /* background-color: green; */
+  width: 25%;
+}
+
+#centercontentwrapper {
+  /* background-color: red; */
+  width: 50%;
+
+  display: flex;
+  justify-content: center;
+}
+
+#rightsidewrapper {
+  /* background-color: blue; */
+  width: 25%;
+}
+
+#blognav {
+  float: left;
+  padding-left: 10%;
+}
+
+.postheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogpost p {
+  text-indent: 2%;
+}
+
+#footer a:visited, #footer a:link, #footer a:hover {
+  color: #FF288C;
+}
+
+/* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
+shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */

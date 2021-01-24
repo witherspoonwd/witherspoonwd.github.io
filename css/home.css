@@ -1,0 +1,189 @@
+@import url("defaulttext.css"); /* calls in default text settings */
+
+body {
+  background-image: url("tiles/jpg/psychedglass.jpg");
+  background-attachment: fixed;
+  margin: auto;
+  width: 80%;
+}
+
+.dacenta {
+  justify-content: center;
+  display: flex;
+}
+
+#logo h1 {
+  /* Font shit */
+  font-family: Arial;
+  font-size: 3.5vw;
+  font-style: italic;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  color: #FF288C;
+
+  /* positioning shit */
+  margin: 10px;
+}
+
+#logo a:visited, a:link{
+  color: #FF288C;
+}
+
+#logo a:hover{
+  color: #FF288C;
+
+}
+
+
+#nav {
+  /* appearance shit */
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
+
+  /* positioning shit */
+  text-align: center;
+  display: block;
+
+  /* border shit */
+  border-style: solid;
+  border-width: 2px;
+  border-color: 570605;
+}
+
+#nav li{
+  display: inline;
+  margin: 25px;
+  font-family: bahnschrift;
+  font-size: 25px;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+
+a:visited, a:link{
+  color: lightgrey;
+}
+
+a:hover{
+  color: red;
+}
+
+#main {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-width: 2px;
+  border-color: black;
+
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
+
+
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+#greetingbox {
+  /* Border shit */
+  border-style: solid;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-color: black;
+}
+
+#greetingbox h1 {
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 15%;
+  padding: 70px 0;
+
+  background-image: url("tiles/jpg/cloudysunset.jpg");
+  background-attachment: fixed;
+  background-size: 500px 500px;
+}
+
+#firstblock {
+  padding-bottom: 2%;
+}
+
+#firstblock h1 {
+  width: 25px;
+}
+
+#linklist {
+  display: inline;
+  float: left;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+#linklist li {
+  font-size: 25px;
+}
+
+
+
+/*#tbwrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+#thirdblock iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+#tbwrapper {
+  /*we'll figure this out later */
+
+}
+
+#thirdblock iframe{
+  /*we'll figure this out later */
+}
+
+
+
+#audiowrapper audio {
+  width: 50%;
+}
+
+#audiosubtitle p {
+
+  font-size: 20px;
+}
+
+#blogheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+#blogcontainer {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
+
+  display: block;
+  border-width: 2px;
+  border-style: groove;
+  padding: 1%;
+  width: 50%;
+}
+
+
+
+#footer a:visited, #footer a:link, #footer a:hover {
+  color: #FF288C;
+}
+
+/* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
+shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */

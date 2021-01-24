@@ -1,0 +1,9 @@
+p, h1, h3{
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+color: blue;
+}
+
+h3 {
+  color: red;
+  font-size: 1000px;
+}
