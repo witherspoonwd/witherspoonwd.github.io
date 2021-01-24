@@ -23,7 +23,7 @@ a:hover{
 #logo h1 {
   /* Font shit */
   font-family: Arial;
-  font-size: 70px;
+  font-size: 3.5vw;
   font-style: italic;
   text-shadow: 4px 4px black;
   text-align: center;
@@ -31,6 +31,15 @@ a:hover{
 
   /* positioning shit */
   margin: 10px;
+}
+
+#logo a:visited, a:link{
+  color: #FF288C;
+}
+
+#logo a:hover{
+  color: #FF288C;
+
 }
 
 #nav {

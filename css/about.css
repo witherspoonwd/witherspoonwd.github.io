@@ -15,7 +15,7 @@ body {
 #logo h1 {
   /* Font shit */
   font-family: Arial;
-  font-size: 70px;
+  font-size: 3.5vw;
   font-style: italic;
   text-shadow: 4px 4px black;
   text-align: center;
@@ -23,6 +23,15 @@ body {
 
   /* positioning shit */
   margin: 10px;
+}
+
+#logo a:visited, a:link{
+  color: #FF288C;
+}
+
+#logo a:hover{
+  color: #FF288C;
+
 }
 
 #nav {
@@ -56,6 +65,30 @@ body {
 
 #nav a:hover{
   color: red;
+}
+
+#greetingbox {
+  /* Border shit */
+  border-style: solid;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-color: black;
+}
+
+#greetingbox h1 {
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  background-image: url("tiles/jpg/snowglass.jpg");
+  background-attachment: fixed;
+  background-size: 500px 500px;
 }
 
 #main {
