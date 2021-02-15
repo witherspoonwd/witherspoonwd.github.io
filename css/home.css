@@ -25,14 +25,16 @@ body {
   margin: 10px;
 }
 
-#logo a:link, a:visited{
+#logo a{
+  text-decoration: none;
+  text-transform: uppercase;
   color: #FF288C;
 }
 
-#logo a:hover{
+#logo a:link, a:visited, a:hover, a:active, a:focus{
   color: #FF288C;
-
 }
+
 
 
 #nav {
@@ -53,8 +55,8 @@ body {
 #nav li{
   display: inline;
   margin: 25px;
-  font-family: bahnschrift;
   font-size: 25px;
+  font: bahnscrift;
   font-style: normal;
   text-shadow: 1.5px 1.5px black;
   color: white;
