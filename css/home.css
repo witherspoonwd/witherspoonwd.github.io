@@ -12,6 +12,10 @@ body {
   display: flex;
 }
 
+.wholeContentContainer {
+  /* min-width: 920px; */
+}
+
 #logo h1 {
   /* Font shit */
   font-family: Arial;
@@ -71,18 +75,52 @@ a:hover{
 }
 
 #main {
+  /* old shit
   border-style: solid;
   border-width: 2px;
   border-color: black;
   border-width: 2px;
   border-color: black;
 
+
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
 
 
   padding-bottom: 2%;
-  padding-top: 2%;
+  padding-top: 2%; */
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
+  border-width: 2px;
+  border-color: black;
+
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#leftsidewrapper {
+  /* background-color: green; */
+  width: 20%;
+}
+
+#centercontentwrapper {
+  /* background-color: red; */
+  width: 70%;
+}
+
+
+#rightsidewrapper {
+  /* background-color: blue; */
+  width: 20%;
 }
 
 #greetingbox {
@@ -109,24 +147,75 @@ a:hover{
   background-size: 500px 500px;
 }
 
-#firstblock {
-  padding-bottom: 2%;
-}
-
-#firstblock h1 {
-  width: 25px;
-}
-
-#linklist {
+#linklist li{
   display: inline;
-  float: left;
-  padding-left: 5%;
-  padding-top: 3%;
+  margin: 25px;
+  font-size: 25px;
+  font: bahnscrift;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
 }
 
-#linklist li {
-  font-size: 25px;
+#secondblock {
+  display: flex;
+  justify-content: center;
 }
+
+#tbwrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+#tbwrapper iframe, #tbwrapper object, tbwrapper embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+  #audiowrapper audio {
+    width: 100%;
+  }
+
+  #audiosubtitle p {
+
+    font-size: 20px;
+  }
+
+  #blogheader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #blogcontainer {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
+
+    display: block;
+    border-width: 2px;
+    border-style: groove;
+    padding: 1%;
+    width: 100%;
+  }
+
+  #footer a:visited, #footer a:link, #footer a:hover {
+    color: #FF288C;
+  }
+
+/* #linklist li{
+  display: inline;
+  margin: 25px;
+  font-size: 25px;
+  font: bahnscrift;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+*/
 
 
 
@@ -146,47 +235,16 @@ a:hover{
   height: 100%;
 }*/
 
-#tbwrapper {
-  /*we'll figure this out later */
-
-}
-
-#thirdblock iframe{
-  /*we'll figure this out later */
-}
 
 
 
-#audiowrapper audio {
-  width: 50%;
-}
-
-#audiosubtitle p {
-
-  font-size: 20px;
-}
-
-#blogheader {
-  display: flex;
-  justify-content: space-between;
-}
-
-#blogcontainer {
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
-
-  display: block;
-  border-width: 2px;
-  border-style: groove;
-  padding: 1%;
-  width: 50%;
-}
+/*
 
 
 
-#footer a:visited, #footer a:link, #footer a:hover {
-  color: #FF288C;
-}
+
+
+*/
 
 /* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
 shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */
