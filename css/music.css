@@ -127,14 +127,14 @@ a:hover{
 
 #leftsidewrapper {
 
-  width: 15%;
+  width: 20%;
 }
 
 #centercontentwrapper {
 
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 60%;
 }
 
 #contentTable {
@@ -153,7 +153,7 @@ td, th {
 
 #rightsidewrapper {
 
-  width: 15%;
+  width: 20%;
 }
 
   #footer a:visited, #footer a:link, #footer a:hover {
