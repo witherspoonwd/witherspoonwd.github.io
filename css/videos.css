@@ -1,7 +1,7 @@
 @import url("defaulttext.css"); /* calls in default text settings */
 
 body {
-  background-image: url("tiles/png/jazz.png");
+  background-image: url("tiles/jpg/blueglass.jpg");
   background-attachment: fixed;
   margin: auto;
   width: 80%;
@@ -23,7 +23,7 @@ body {
   font-style: italic;
   text-shadow: 4px 4px black;
   text-align: center;
-  color: #FFC200;
+  color: #A19AFA;
 
   /* positioning shit */
   margin: 10px;
@@ -32,29 +32,19 @@ body {
 #logo a{
   text-decoration: none;
   text-transform: uppercase;
-  color: #FFC200;
-
-  -webkit-user-select: none; /* Safari */
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+/Edge */
-user-select: none; /* Standard */
+  color: #A19AFA;
 }
 
 #logo a:link, a:visited, a:hover, a:active, a:focus{
-  color: #FFC200;
-
-  -webkit-user-select: none; /* Safari */
--moz-user-select: none; /* Firefox */
--ms-user-select: none; /* IE10+/Edge */
-user-select: none; /* Standard */
+  color: #A19AFA;
 }
 
 
 
 #nav {
   /* appearance shit */
-  background: rgb(102,39,201);
-  background: linear-gradient(180deg, rgba(102,39,201,1) 0%, rgba(172,33,206,1) 100%);
+  background: rgb(20,55,255);
+  background: linear-gradient(180deg, rgba(20,55,255,1) 0%, rgba(56,44,134,1) 100%);
 
   /* positioning shit */
   text-align: center;
@@ -85,11 +75,26 @@ a:hover{
 }
 
 #main {
+  /* old shit
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  background: rgb(44,87,221);
-  background: linear-gradient(180deg, rgba(44,87,221,1) 0%, rgba(26,190,255,1) 100%);
+  border-width: 2px;
+  border-color: black;
+
+
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
+
+
+  padding-bottom: 2%;
+  padding-top: 2%; */
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background: rgb(66,128,193);
+  background: linear-gradient(180deg, rgba(66,128,193,1) 0%, rgba(9,76,145,1) 100%);
   border-width: 2px;
   border-color: black;
 
@@ -121,41 +126,92 @@ a:hover{
   padding-top: 2%;
   padding-bottom: 2%;
 
-  background-image: url("tiles/bmp/argyle.bmp");
+  background-image: url("tiles/jpg/cloudysky.jpg");
   background-attachment: fixed;
+  background-size: 500px 500px;
 }
 
-#leftsidewrapper {
 
-  width: 20%;
+#leftsidewrapper {
+  /* background-color: green; */
+  width: 10%;
 }
 
 #centercontentwrapper {
-
-  display: flex;
+  /* background-color: red; */
+  width: 80%;
   justify-content: center;
-  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
-#contentTable {
+.thumbnailContainer {
+  padding: 1%;
+}
+
+.thumbnailContainer h3 {
+margin: 0;
+}
+
+.thumbnailContainer h4 {
+margin: 0;
+}
+
+.thumbnalContainer img {
   width: 100%;
+  height: auto;
 }
-
-table {
-  width: 100%;
-}
-
-td, th {
-  text-align: left;
-}
-
 
 
 #rightsidewrapper {
-
-  width: 20%;
+  /* background-color: blue; */
+  width: 10%;
 }
 
   #footer a:visited, #footer a:link, #footer a:hover {
-    color: #FFC200;
+    color: #A19AFA;
   }
+
+/* #linklist li{
+  display: inline;
+  margin: 25px;
+  font-size: 25px;
+  font: bahnscrift;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+*/
+
+
+
+/*#tbwrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+#thirdblock iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}*/
+
+
+
+
+/*
+
+
+
+
+
+*/
+
+/* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
+shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */
