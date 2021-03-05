@@ -74,22 +74,14 @@ a:hover{
   color: red;
 }
 
-.thumbnailContainer a:visited, .thumbnailContainer a:link{
-  color: black;
+
+#pageNav a:visited, #pageNav a:link{
+  color: lightgrey;
 }
 
-.thumbnailContainer a:hover{
-  color: #4bfcfc;
+#pageNav a:hover, #pageNav a:hover h3 {
+  color: red;
 }
-
-.thumbnailContainer img {
-  border-style: solid;
-  border-width: 2px;
-  border-color: 570605;
-}
-
-
-
 
 #main {
   /* old shit
@@ -135,6 +127,7 @@ a:hover{
 #greetingbox h1 {
   font-style: normal;
   font-size: 45px;
+  text-shadow: 3px 3px black;
   text-align: center;
 
   margin-bottom: auto;
@@ -151,32 +144,37 @@ a:hover{
 
 #leftsidewrapper {
   /* background-color: green; */
-  width: 10%;
+  width: 20%;
 }
 
 #centercontentwrapper {
   /* background-color: red; */
-  width: 80%;
+  width: 60%;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
 }
 
+#descriptionHeader, #pageNav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.textHolder {
+  width: 100%;
+}
+
 .thumbnailContainer {
   padding: 1%;
 }
 
-.thumbnailContainer a {
-  text-decoration: none;
-}
-
 .thumbnailContainer h3 {
-margin: 0;
+  margin: 0;
 }
 
 .thumbnailContainer h4 {
-margin: 0;
+  margin: 0;
 }
 
 .thumbnalContainer img {
@@ -184,55 +182,35 @@ margin: 0;
   height: auto;
 }
 
+.videoContainer {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.videoContainer::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 #rightsidewrapper {
   /* background-color: blue; */
-  width: 10%;
+  width: 20%;
 }
 
   #footer a:visited, #footer a:link, #footer a:hover {
     color: #A19AFA;
   }
-
-/* #linklist li{
-  display: inline;
-  margin: 25px;
-  font-size: 25px;
-  font: bahnscrift;
-  font-style: normal;
-  text-shadow: 1.5px 1.5px black;
-  color: white;
-}
-*/
-
-
-
-/*#tbwrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-#thirdblock iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}*/
-
-
-
-
-/*
-
-
-
-
-
-*/
 
 /* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
 shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */
