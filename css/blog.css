@@ -148,9 +148,6 @@ a:hover{
   justify-content: space-between;
 }
 
-.blogpost p {
-  text-indent: 2%;
-}
 
 #footer a:visited, #footer a:link, #footer a:hover {
   color: #FF288C;
