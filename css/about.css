@@ -52,7 +52,6 @@ body {
 #nav li{
   display: inline;
   margin: 25px;
-  font-family: bahnschrift;
   font-size: 25px;
   font-style: normal;
   text-shadow: 1.5px 1.5px black;
@@ -108,11 +107,6 @@ body {
 
 #contentwrapper {
   width: 50%;
-
-}
-
-#contentwrapper p{
-  text-indent: 2%;
 
 }
 
