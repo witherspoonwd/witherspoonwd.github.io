@@ -155,12 +155,37 @@ a:hover{
 }
 
 #centercontentwrapper {
-  /* background-color: red; */
+  /*background-color: red;*/
   width: 80%;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+.ledgerContainer {
+  /*background-color: blue;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#placeholder{
+  visibility: hidden;
+}
+
+#pageNav{
+}
+
+#pageNav li{
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
 }
 
 .thumbnailContainer {
@@ -193,6 +218,8 @@ margin: 0;
   #footer a:visited, #footer a:link, #footer a:hover {
     color: #A19AFA;
   }
+
+
 
 /* #linklist li{
   display: inline;
