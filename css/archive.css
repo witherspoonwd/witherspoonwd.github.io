@@ -1,7 +1,7 @@
 @import url("defaulttext.css"); /* calls in default text settings */
 
 body {
-  background-image: url("tiles/jpg/psychedglass.jpg");
+  background-image: url("tiles/jpg/bluesnake.jpg");
   background-attachment: fixed;
   margin: auto;
   width: 80%;
@@ -23,7 +23,7 @@ body {
   font-style: italic;
   text-shadow: 4px 4px black;
   text-align: center;
-  color: #FF288C;
+  color: #05d496;
 
   /* positioning shit */
   margin: 10px;
@@ -32,19 +32,19 @@ body {
 #logo a{
   text-decoration: none;
   text-transform: uppercase;
-  color: #FF288C;
+  color: #05d496;
 }
 
 #logo a:link, a:visited, a:hover, a:active, a:focus{
-  color: #FF288C;
+  color: #05d496;
 }
 
 
 
 #nav {
   /* appearance shit */
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
+  background: rgb(103,123,210);
+  background: linear-gradient(180deg, rgba(103,123,210,1) 0%, rgba(72,89,166,1) 100%);
 
   /* positioning shit */
   text-align: center;
@@ -78,8 +78,8 @@ a:hover{
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
+  background: rgb(75,102,218);
+  background: linear-gradient(90deg, rgba(75,102,218,1) 0%, rgba(55,76,168,1) 100%);
   border-width: 2px;
   border-color: black;
 
@@ -111,7 +111,7 @@ a:hover{
   padding-top: 2%;
   padding-bottom: 2%;
 
-  background-image: url("tiles/jpg/cloudysunset.jpg");
+  background-image: url("tiles/jpg/cloudymilk.jpg");
   background-attachment: fixed;
   background-size: 500px 500px;
 }
@@ -142,5 +142,5 @@ a:hover{
 }
 
   #footer a:visited, #footer a:link, #footer a:hover {
-    color: #FF288C;
+    color: #00DF13;
   }
