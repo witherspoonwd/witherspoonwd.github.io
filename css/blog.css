@@ -122,7 +122,7 @@ a:hover{
   justify-content: space-between;
 }
 
-.blogpost a, .blognav a {
+.blogpost a, #blognav a {
   color: lightgrey;
 }
 
