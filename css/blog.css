@@ -40,13 +40,12 @@ a:hover{
 }
 
 
-#logo a:visited, a:link{
+#logo a:visited, #logo a:link{
   color: #FF288C;
 }
 
 #logo a:hover{
   color: #FF288C;
-
 }
 
 #nav {
@@ -122,8 +121,12 @@ a:hover{
   justify-content: space-between;
 }
 
-.blogpost a, #blognav a {
+.blogpost a:visited, #blognav a:visited, .blogpost a:link, #blognav a:link {
   color: lightgrey;
+}
+
+.blogpost a:hover, #blognav a:hover {
+  color: red;
 }
 
 .greekgods {
