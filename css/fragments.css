@@ -24,7 +24,7 @@ body {
   font-style: italic;
   text-shadow: 4px 4px black;
   text-align: center;
-  color: #FFC200;
+  color: #EEF357;
 
   /* positioning shit */
   margin: 10px;
@@ -33,7 +33,7 @@ body {
 #logo a{
   text-decoration: none;
   text-transform: uppercase;
-  color: #FFC200;
+  color: #EEF357;
 
   -webkit-user-select: none; /* Safari */
 -moz-user-select: none; /* Firefox */
@@ -42,7 +42,7 @@ user-select: none; /* Standard */
 }
 
 #logo a:link, a:visited, a:hover, a:active, a:focus{
-  color: #FFC200;
+  color: #EEF357;
 
   -webkit-user-select: none; /* Safari */
 -moz-user-select: none; /* Firefox */
