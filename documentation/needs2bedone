@@ -1,8 +1,7 @@
--change color of clicked links on fragments and music page only.
+-optimize all pages for windows snapping
 -reorganize divs to make sure nothing is outside of the page body
 -change the size of borders on the boxes between the nav bar, the greeting box,
 and the main body. (all pages)
--optimize all pages for windows snapping
 -add mobile implementation to all pages
 
 THE WEBSITE NEEDS MORE UNIFORMITY. EVERY PAGE SHOULD WORK IN THE EXACT SAME WAY AS THE OTHERS.
