@@ -1,195 +1,167 @@
-  @import url("defaulttext.css"); /* calls in default text settings */
+@import url("defaulttext.css"); /* calls in default text settings */
 
-  body {
-    background-image: url("tiles/jpg/greenwallpaper.jpg");
-    background-size: 480px 480px;
-    background-attachment: fixed;
-    margin: auto;
-    width: 80%;
-  }
+body {
+  background-image: url("tiles/jpg/greenwallpaper.jpg");
+  background-size: 480px 480px;
+  background-attachment: fixed;
+  margin: auto;
+  width: 80%;
+}
 
-  .dacenta {
-    justify-content: center;
-    display: flex;
-  }
+.dacenta {
+  justify-content: center;
+  display: flex;
+}
 
-  .wholeContentContainer {
-    /* min-width: 920px; */
-  }
+.wholeContentContainer {
+  /* min-width: 920px; */
+}
 
-  #logo h1 {
-    /* Font shit */
-    font-family: Arial;
-    font-size: 3.5vw;
-    font-style: italic;
-    text-shadow: 4px 4px black;
-    text-align: center;
-    color: #EEF357;
+#logo h1 {
+  /* Font shit */
+  font-family: Arial;
+  font-size: 3.5vw;
+  font-style: italic;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  color: #EEF357;
 
-    /* positioning shit */
-    margin: 10px;
-  }
+  /* positioning shit */
+  margin: 10px;
+}
 
-  #logo a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #EEF357;
+#logo a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #EEF357;
 
-    -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
-  }
+  -webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
 
-  #logo a:link, a:visited, a:hover, a:active, a:focus{
-    color: #EEF357;
+#logo a:link, a:visited, a:hover, a:active, a:focus{
+  color: #EEF357;
 
-    -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
-  }
-
-
-
-  #nav {
-    /* appearance shit */
-    background: rgb(201,216,130);
-    background: linear-gradient(180deg, rgba(201,216,130,1) 0%, rgba(154,171,77,1) 100%);
-
-    /* positioning shit */
-    text-align: center;
-    display: block;
-
-    /* border shit */
-    border-style: solid;
-    border-width: 2px;
-    border-color: 570605;
-  }
-
-  #nav li{
-    display: inline;
-    margin: 25px;
-    font-size: 25px;
-    font: bahnscrift;
-    font-style: normal;
-    text-shadow: 1.5px 1.5px black;
-    color: white;
-  }
-
-  a:visited, a:link{
-    color: lightgrey;
-  }
-
-  a:hover{
-    color: red;
-  }
-
-  #main {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    background: rgb(87,105,69);
-    background: linear-gradient(0deg, rgba(87,105,69,1) 0%, rgba(136,166,104,1) 100%);
-    border-width: 2px;
-    border-color: black;
-
-
-    padding-top: 1%;
-    padding-bottom: 1%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  #greetingbox {
-    /* Border shit */
-    border-style: solid;
-    border-bottom-width: 0px;
-    border-top-width: 0px;
-    border-color: black;
-  }
-
-  #greetingbox h1 {
-    font-style: normal;
-    font-size: 45px;
-    text-align: center;
-
-    margin-bottom: auto;
-    margin-top: auto;
-    height: 15%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-
-    background-image: url("tiles/jpg/grass2.jpg");
-    background-size: 480px 480px;
-    background-attachment: fixed;
-  }
-
-  #leftsidewrapper {
-
-    width: 20%;
-  }
-
-  #centercontentwrapper {
-
-    display: flex;
-    justify-content: center;
-    width: 60%;
-  }
-
-  #contentTable {
-    width: 100%;
-  }
-
-  #contentTable td a:visited {
-    color: #D9DF54;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  td, th {
-    text-align: left;
-  }
+  -webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
 
 
 
-  #rightsidewrapper {
+#nav {
+  /* appearance shit */
+  background: rgb(201,216,130);
+  background: linear-gradient(180deg, rgba(201,216,130,1) 0%, rgba(154,171,77,1) 100%);
 
-    width: 20%;
-  }
+  /* positioning shit */
+  text-align: center;
+  display: block;
+
+  /* border shit */
+  border-style: solid;
+  border-width: 2px;
+  border-color: 570605;
+}
+
+#nav li{
+  display: inline;
+  margin: 25px;
+  font-size: 25px;
+  font: bahnscrift;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px black;
+  color: white;
+}
+
+a:visited, a:link{
+  color: lightgrey;
+}
+
+a:hover{
+  color: red;
+}
+
+#main {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  background: rgb(87,105,69);
+  background: linear-gradient(0deg, rgba(87,105,69,1) 0%, rgba(136,166,104,1) 100%);
+  border-width: 2px;
+  border-color: black;
+
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#greetingbox {
+  /* Border shit */
+  border-style: solid;
+  border-bottom-width: 0px;
+  border-top-width: 0px;
+  border-color: black;
+}
+
+#greetingbox h1 {
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+  background-image: url("tiles/jpg/grass2.jpg");
+  background-size: 480px 480px;
+  background-attachment: fixed;
+}
+
+#leftsidewrapper {
+
+  width: 20%;
+}
+
+#centercontentwrapper {
+
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+#contentTable {
+  width: 100%;
+}
+
+#contentTable td a:visited {
+  color: #D9DF54;
+}
+
+table {
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
+}
+
+
+
+#rightsidewrapper {
+
+  width: 20%;
+}
 
   #footer a:visited, #footer a:link, #footer a:hover {
     color: #FFC200;
-  }
-
-  /* snap implemenation code */
-  @media screen and (max-width: 1200px) {
-      body {
-        width: 100%;
-      }
-
-      #logo h1 {
-        font-size: 7vw;
-      }
-
-      #leftsidewrapper {
-        width: 10%;
-      }
-
-      #rightsidewrapper {
-        width: 10%;
-      }
-
-      #centercontentwrapper {
-        width: 90%;
-        /* background-color: blue; */
-      }
-
-      #footer {
-        margin-left: 2%;
-      }
   }
