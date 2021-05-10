@@ -96,6 +96,10 @@ a:hover{
   width: 20%;
 }
 
+#mobileGBox {
+  display: none;
+}
+
 #centercontentwrapper {
   /* background-color: red; */
   width: 70%;
@@ -195,6 +199,8 @@ a:hover{
   }
 
 
+
+
 /* snapping and tablet code */
   @media screen and (max-width: 1200px) {
     body {
@@ -235,6 +241,8 @@ a:hover{
 
     #mobileMenu {
       /* appearance shit */
+
+
       background: rgb(2,0,36);
       background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
 
@@ -252,6 +260,31 @@ a:hover{
     #mobileMenu img {
       width: 10%;
       height: 10%;
+    }
+
+    #mobileGBox {
+      /* Border shit */
+      border-style: solid;
+      border-bottom-width: 0px;
+      border-top-width: 0px;
+      border-color: black;
+      
+      display: block;
+    }
+
+    #mobileGBox h1 {
+      font-style: normal;
+      font-size: 45px;
+      text-align: center;
+
+      margin-bottom: auto;
+      margin-top: auto;
+      padding-top: 2%;
+      padding-bottom: 2%;
+
+      background-image: url("tiles/jpg/cloudysunset.jpg");
+      background-attachment: fixed;
+      background-size: 500px 500px;
     }
 
     #nav {

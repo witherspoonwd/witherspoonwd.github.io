@@ -137,6 +137,11 @@ a:hover{
   width: 60%;
 }
 
+#contentTable td a:visited {
+    color: rgb(255,194,0);
+}
+
+
 #contentTable {
   width: 100%;
 }

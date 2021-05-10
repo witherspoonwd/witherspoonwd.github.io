@@ -143,6 +143,10 @@ a:hover{
   width: 100%;
 }
 
+#contentTable td a:visited {
+  color: #D9DF54;
+}
+
 table {
   width: 100%;
 }
