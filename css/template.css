@@ -198,6 +198,15 @@ a:hover{
     color: #FF288C;
   }
 
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  #mobileLinkListContainter {
+    display: none;
+  }
+
 
 
 
@@ -239,6 +248,10 @@ a:hover{
       text-shadow: 2px 2px black;
     }
 
+    #logo h1 {
+      font-size: 7.6vw;
+    }
+
     #mobileMenu {
       /* appearance shit */
 
@@ -268,7 +281,7 @@ a:hover{
       border-bottom-width: 0px;
       border-top-width: 0px;
       border-color: black;
-      
+
       display: block;
     }
 
@@ -287,6 +300,10 @@ a:hover{
       background-size: 500px 500px;
     }
 
+    #linklist {
+      display: none;
+    }
+
     #nav {
       display: none;
     }
@@ -296,16 +313,27 @@ a:hover{
     }
 
     #leftsidewrapper {
+      display:none;
       width: 0%;
     }
 
     #rightsidewrapper {
+      display: none;
       width: 0%;
     }
 
     #centercontentwrapper {
       width: 100%;
     }
+
+    .mobileLinks {
+      margin: 1%;
+    }
+
+    #mobileLinkListContainter {
+      display: flex;
+    }
+
   }
 
 /* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
