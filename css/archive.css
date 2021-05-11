@@ -144,3 +144,18 @@ a:hover{
   #footer a:visited, #footer a:link, #footer a:hover {
     color: #00DF13;
   }
+
+  /* snapping and tablet code */
+    @media screen and (max-width: 1200px) {
+      body {
+        width: 100%;
+      }
+
+      #logo h1 {
+        font-size: 7vw;
+      }
+
+      #footer {
+        margin-left: 2%;
+      }
+    }

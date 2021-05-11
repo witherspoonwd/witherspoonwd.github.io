@@ -99,7 +99,7 @@ a:hover{
   padding-top: 2%;
   padding-bottom: 2%;
 
-  background-image: url("tiles/jpg/marble.jpg");
+  background-image: url("tiles/jpg/cloudysky.jpg");
   background-attachment: fixed;
   background-size: 500px 500px;
 }
@@ -165,6 +165,35 @@ a:hover{
 #footer a:visited, #footer a:link, #footer a:hover {
   color: #FF288C;
 }
+
+/* snapping and tablet code */
+  @media screen and (max-width: 1200px) {
+    body {
+      width: 100%;
+    }
+
+    #logo h1 {
+      font-size: 7vw;
+    }
+
+    #leftsidewrapper {
+      width: 4%;
+    }
+
+    #rightsidewrapper {
+      width: 21%;
+    }
+
+    #centercontentwrapper {
+      width: 75%;
+      /* background-color: blue; */
+    }
+
+    #footer {
+      margin-left: 2%;
+    }
+  }
+
 
 /* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
 shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */

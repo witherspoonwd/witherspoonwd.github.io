@@ -219,6 +219,43 @@ margin: 0;
     color: #A19AFA;
   }
 
+#placeholder {
+  display: none;
+}
+
+  /* snapping and tablet code */
+    @media screen and (max-width: 1200px) {
+      body {
+        width: 100%;
+      }
+
+      #logo h1 {
+        font-size: 7vw;
+      }
+
+      #leftsidewrapper {
+        width: 10%;
+      }
+
+      #rightsidewrapper {
+        width: 10%;
+      }
+
+      #centercontentwrapper {
+        width: 90%;
+        /* background-color: blue; */
+      }
+
+      #footer {
+        margin-left: 2%;
+      }
+
+      #placeholder {
+        display: block;
+        visibility: hidden;
+      }
+    }
+
 
 
 /* #linklist li{

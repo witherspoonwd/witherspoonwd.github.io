@@ -1,7 +1,7 @@
 @import url("defaulttext.css"); /* calls in default text settings */
 
 body {
-  background-image: url("tiles/jpg/psychedglass.jpg");
+  background-image: url("tiles/jpg/fire3.jpg");
   background-attachment: fixed;
   margin: auto;
   width: 80%;
@@ -23,7 +23,7 @@ body {
   font-style: italic;
   text-shadow: 4px 4px black;
   text-align: center;
-  color: #FF288C;
+  color: #F6B342;
 
   /* positioning shit */
   margin: 10px;
@@ -32,19 +32,19 @@ body {
 #logo a{
   text-decoration: none;
   text-transform: uppercase;
-  color: #FF288C;
+  color: #F6B342;
 }
 
 #logo a:link, a:visited, a:hover, a:active, a:focus{
-  color: #FF288C;
+  color: #F6B342;
 }
 
 
 
 #nav {
   /* appearance shit */
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,20,9,1) 0%, rgba(126,35,10,1) 100%);
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(143,0,0,1) 100%);
 
   /* positioning shit */
   text-align: center;
@@ -93,8 +93,8 @@ a:hover{
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,60,53,1) 0%, rgba(25,133,118,1) 100%);
+  background: rgb(255,114,0);
+  background: linear-gradient(180deg, rgba(255,114,0,1) 0%, rgba(143,0,0,1) 100%);
   border-width: 2px;
   border-color: black;
 
@@ -142,7 +142,7 @@ a:hover{
   padding-top: 2%;
   padding-bottom: 2%;
 
-  background-image: url("tiles/jpg/cloudysunset.jpg");
+  background-image: url("tiles/jpg/fire4.jpg");
   background-attachment: fixed;
   background-size: 500px 500px;
 }
@@ -210,6 +210,11 @@ a:hover{
     color: #FF288C;
   }
 
+  #centercontentwrapper p {
+  margin-top: .8%;
+  margin-bottom: .8%;
+  }
+
   /* snapping and tablet code */
   @media screen and (max-width: 1200px) {
     body {
@@ -237,47 +242,6 @@ a:hover{
       margin-left: 2%;
     }
   }
-
-
-/* #linklist li{
-  display: inline;
-  margin: 25px;
-  font-size: 25px;
-  font: bahnscrift;
-  font-style: normal;
-  text-shadow: 1.5px 1.5px black;
-  color: white;
-}
-*/
-
-
-
-/*#tbwrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-#thirdblock iframe{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}*/
-
-
-
-
-/*
-
-
-
-
-
-*/
 
 /* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
 shit combination of characters. Fuck the asterick key and fuck the slash key. Fuck you too. */

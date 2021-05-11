@@ -114,12 +114,38 @@ body {
 
 #contentwrapper {
   width: 50%;
+}
 
+#contentwrapper a:visited, #contentwrapper a:link {
+  color: lightgrey;
+}
+
+#contentwrapper a:hover {
+  color: red;
 }
 
 
 #footer a:visited, #footer a:link, #footer a:hover {
   color: #FF288C;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+
+  #logo h1 {
+    font-size: 7vw;
+  }
+
+  #contentwrapper {
+    width: 90%;
+    /* background-color: blue; */
+  }
+
+  #footer {
+    margin-left: 2%;
+  }
 }
 
 /* I cannot handle commenting dude. I just can't why the fuck is the commenting the most
