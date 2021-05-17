@@ -1,0 +1,11 @@
+blog gen algorithm
+
+1. get filename of blog text file
+2. get desired filename of new blogpost html file
+4. get date text
+3. open template html.txt
+4. output template html.txt for however many lines until...
+5. output blog text file with appropriate styling html
+6. continue copying the rest of the template
+7. print message saying process is complete
+8. close both files, clear memory
