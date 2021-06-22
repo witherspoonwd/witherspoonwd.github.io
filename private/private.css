@@ -1,0 +1,49 @@
+p {
+    font-size: 150%;
+}
+
+#title {
+  font-size: 275%;
+  font-weight: bold;
+  margin-top: .10%;
+  margin-bottom: .10%;
+}
+
+#subtitle {
+  font-size: 120%;
+  margin-bottom: 1px;
+  margin-top: .10%;
+}
+
+.menuList li {
+  font-size: 225%;
+  margin: 0;
+}
+
+.menuList ul {
+  padding-left: 0; /* Remove padding */
+}
+
+.contentList li {
+  font-size: 150%%;
+  margin: 0;
+}
+
+.contentList ul {
+  padding-left: 0; /* Remove padding */
+}
+
+.contentTable {
+
+}
+
+#back {
+  margin-top: .10%;
+  font-size: 225%;
+}
+
+.copyright {
+  margin-top: .10%;
+  font-size: 120%;
+  margin-bottom: .10%;
+}
