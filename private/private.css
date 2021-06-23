@@ -1,5 +1,5 @@
 p {
-    font-size: 150%;
+    font-size: 120%;
 }
 
 #title {
@@ -34,16 +34,40 @@ p {
 }
 
 .contentTable {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 
+.contentTable tr {
+margin-left: 0;
+padding-left: 0;
+}
+
+.contentTable table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  margin-left: 0;
+}
+
+.contentTable td {
+  text-align: left;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: normal;
 }
 
 #back {
   margin-top: .10%;
   font-size: 225%;
+  margin-bottom: .10%;
 }
 
 .copyright {
   margin-top: .10%;
   font-size: 120%;
   margin-bottom: .10%;
+}
+
+#updateDate {
+  color: green;
 }
