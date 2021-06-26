@@ -71,3 +71,7 @@ padding-left: 0;
 #updateDate {
   color: green;
 }
+
+#originalDate {
+  color: blue;
+}
