@@ -1,0 +1,81 @@
+p {
+    font-size: 120%;
+}
+
+#title {
+  font-size: 275%;
+  font-weight: bold;
+  margin-top: .10%;
+  margin-bottom: .10%;
+}
+
+#subtitle {
+  font-size: 120%;
+  margin-bottom: 1px;
+  margin-top: .10%;
+}
+
+.menuList li {
+  font-size: 225%;
+  margin: 0;
+}
+
+.menuList ul {
+  padding-left: 0; /* Remove padding */
+}
+
+.contentList li {
+  font-size: 150%%;
+  margin: 0;
+}
+
+.contentList ul {
+  padding-left: 0; /* Remove padding */
+}
+
+.contentTable {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.contentTable tr {
+margin-left: 0;
+padding-left: 0;
+}
+
+.contentTable table {
+  border-collapse: separate;
+  border-spacing: 10px 0;
+  margin-left: 0;
+}
+
+.contentTable td {
+  text-align: left;
+  font-size: 120%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+#back {
+  margin-top: .10%;
+  font-size: 225%;
+  margin-bottom: .10%;
+}
+
+.copyright {
+  margin-top: .10%;
+  font-size: 120%;
+  margin-bottom: .10%;
+}
+
+#updateDate {
+  color: green;
+}
+
+.previousUpdates {
+  color: purple;
+}
+
+#originalDate {
+  color: blue;
+}
